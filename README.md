@@ -1,6 +1,6 @@
 # local-version [![Build Status](https://secure.travis-ci.org/JamesMGreene/node-local-version.png?branch=master)](http://travis-ci.org/JamesMGreene/node-local-version)
 
-A \"package.json\" version number fetcher for local Node module installations. Async and sync.
+A "package.json" version number fetcher for local Node module installations. Async and sync.
 
 
 ## Getting Started
@@ -45,6 +45,8 @@ Lint and test your code using [Grunt](http://gruntjs.com/).
 
 
 ## Release History
+ - 0.2.1: Published to NPM on 2014-02-12.
+    - Fixed a README typo.
  - 0.2.0: Published to NPM on 2014-02-12.
     - Made the default API asynchronous and moved the original API to the `.sync` method.
     - Removed requirement to pass along the local `require` function.
