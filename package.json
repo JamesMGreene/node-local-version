@@ -1,0 +1,47 @@
+{
+  "name": "version-sync",
+  "description": "Synchronous \"package.json\" version number fetcher for Node.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/JamesMGreene/node-version-sync",
+  "author": {
+    "name": "James M. Greene",
+    "email": "james.m.greene@gmail.com",
+    "url": "http://jamesgreene.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JamesMGreene/node-version-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JamesMGreene/node-version-sync/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/JamesMGreene/node-version-sync/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/version-sync.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt travis --verbose"
+  },
+  "dependencies": {
+    "findup-sync": "~0.1.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "version",
+    "sync",
+    "semver",
+    "npm",
+    "node"
+  ]
+}
