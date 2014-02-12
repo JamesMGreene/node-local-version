@@ -1,8 +1,8 @@
 {
-  "name": "version-sync",
-  "description": "Synchronous \"package.json\" version number fetcher for Node.",
-  "version": "0.1.0",
-  "homepage": "https://github.com/JamesMGreene/node-version-sync",
+  "name": "local-version",
+  "description": "A \"package.json\" version number fetcher for local Node module installations. Async and sync.",
+  "version": "0.2.0",
+  "homepage": "https://github.com/JamesMGreene/node-local-version",
   "author": {
     "name": "James M. Greene",
     "email": "james.m.greene@gmail.com",
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/JamesMGreene/node-version-sync.git"
+    "url": "git://github.com/JamesMGreene/node-local-version.git"
   },
   "bugs": {
-    "url": "https://github.com/JamesMGreene/node-version-sync/issues"
+    "url": "https://github.com/JamesMGreene/node-local-version/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/JamesMGreene/node-version-sync/blob/master/LICENSE-MIT"
+      "url": "https://github.com/JamesMGreene/node-local-version/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/version-sync.js",
+  "main": "lib/local-version.js",
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -29,7 +29,9 @@
     "test": "grunt travis --verbose"
   },
   "dependencies": {
-    "findup-sync": "~0.1.2"
+    "findup-sync": "~0.1.2",
+    "callsite": "~1.0.0",
+    "resolve": "~0.6.1"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.8.0",
@@ -39,9 +41,14 @@
   },
   "keywords": [
     "version",
-    "sync",
     "semver",
     "npm",
-    "node"
+    "node",
+    "local",
+    "installed",
+    "sync",
+    "synchronous",
+    "async",
+    "asynchronous"
   ]
 }
