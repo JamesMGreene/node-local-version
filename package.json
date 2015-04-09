@@ -1,12 +1,12 @@
 {
   "name": "local-version",
   "description": "A \"package.json\" version number fetcher for local Node module installations. Async and sync.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "homepage": "https://github.com/JamesMGreene/node-local-version",
   "author": {
     "name": "James M. Greene",
     "email": "james.m.greene@gmail.com",
-    "url": "http://jamesgreene.net/"
+    "url": "http://greene.io/"
   },
   "repository": {
     "type": "git",

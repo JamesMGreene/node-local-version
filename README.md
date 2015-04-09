@@ -45,6 +45,8 @@ Lint and test your code using [Grunt](http://gruntjs.com/).
 
 
 ## Release History
+ - 0.2.2: Published to NPM on 2015-04-09.
+    - Updated the author website in "package.json".
  - 0.2.1: Published to NPM on 2014-02-12.
     - Fixed a README typo.
  - 0.2.0: Published to NPM on 2014-02-12.
@@ -59,5 +61,5 @@ Lint and test your code using [Grunt](http://gruntjs.com/).
 
 
 ## License
-Copyright (c) 2014 James M. Greene  
+Copyright (c) 2014-2015 James M. Greene
 Licensed under the MIT license.
